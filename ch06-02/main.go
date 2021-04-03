@@ -31,13 +31,6 @@ func main() {
 		//
 	}
 
-	var p Person = &Student{
-		name: "Tom",
-		age:  18,
-	}
-
-	stu := p.(*Student) // 接口转为实例
-
 }
 
 // GetSystem ..
